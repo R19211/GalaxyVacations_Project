@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>הזמנת חופשה | GALAXY VACATIONS</title>
+        <link rel="icon" href="../favicon.ico">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/order.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="../index.html">
+                    <img src="../assets/images/moon.svg" alt="סמל ירח">GALAXY VACATIONS</a>
+                    <nav class="main-nav" aria-label="ניווט ראשי">
+                        <a href="../index.html">דף הבית</a>
+                        <a href="about.html">אודות</a>
+                        <a href="mars.html">מאדים</a>
+                        <a href="moon.html">הירח</a>
+                        <a href="order.html">הזמנה</a>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="breadcrumb">
+                    <a href="../index.html">דף הבית</a> / הזמנת חופשה</div>
+                    <div class="order-layout">
+                        <aside class="order-aside">
+                            <div class="eyebrow" style="color:#e0d6ff">הצעד הראשון להרפתקה</div>
+                            <h1>הזמינו מקום בין הכוכבים</h1>
+                            <p>ספרו לנו לאן תרצו לטוס, מתי וכמה נוסעים אתם. נחזור אליכם עם הצעה דמיונית ומותאמת אישית.</p>
+                            <ul>
+                                <li>בחירת יעד מתוך מערכת השמש</li>
+                                <li>התאמת משך השהייה</li>
+                                <li>אפשרות להוסיף בקשות מיוחדות</li>
+                            </ul>
+                            <p>
+                                <b>שירות לקוחות:</b>
+                                <br>
+                                <a href="mailto:hello@galaxy-vacations.example">hello@galaxy-vacations.example</a>
+                            </p>
+                        </aside>
+<section class="order-form">
+    <h2>טופס הזמנת חופשה</h2>
+    <p>יש למלא את כל השדות המסומנים בכוכבית.</p>
+    <form action="success.html" method="get">
+        <div class="form-grid">
+<div class="field">
+    <label for="fullname">שם מלא *</label>
+    <input id="fullname" name="fullname" type="text" placeholder="ישראל ישראלי" required minlength="2">
+</div>
+<div class="field">
+    <label for="email">כתובת דוא״ל *</label>
+    <input id="email" name="email" type="email" placeholder="name@example.com" required>
+</div>
+<div class="field">
+    <label for="phone">טלפון *</label>
+    <input id="phone" name="phone" type="tel" placeholder="050-1234567" pattern="[0-9+ -](9, 15)" required>
+</div>
+<div class="field">
+    <label for="destination">יעד החלומות *</label>
+    <select id="destination" name="destination" required>
+        <option value="">בחרו יעד</option>
+        <option>מאדים</option>
+        <option>הירח</option>
+        <option>נוגה</option>
+        <option>שבתאי</option>
+    </select>
+</div>
+<div class="field">
+    <label for="date">תאריך יציאה *</label>
+    <input id="date" name="date" type="date" required>
+</div>
+<div class="field">
+    <label for="people">מספר נוסעים *</label>
+    <input id="people" name="people" type="number" min="1" max="12" value="2" required>
+</div>
+<div class="field">
+    <label for="duration">משך החופשה</label>
+    <select id="duration" name="duration">
+        <option>3 ימים</option>
+        <option>שבוע</option>
+        <option>שבועיים</option>
+        <option>חודש</option>
+    </select>
+</div>
+<div class="field">
+    <label for="budget">תקציב משוער (לאדם)</label>
+    <input id="budget" name="budget" type="range" min="5000" max="50000" step="1000">
+</div>
+<div class="field full">
+    <label for="notes">בקשות מיוחדות</label>
+    <textarea id="notes" name="notes" rows="4" placeholder="ספרו לנו על החופשה שחלמתם עליה...">
+
+    </textarea>
+</div>
+<div class="field full">
+    <label>
+    <input  type="checkbox" name="terms" required style="width:auto"> קראתי ואני מאשר/ת שהפרטים נשלחים לצורך הדגמה לימודית בלבד. *</label>
+</div>
+</div><div class="form-actions">
+    <button class="btn" type="submit">שליחת הזמנה</button>
+    <button class="reset" type="reset">איפוס הטופס</button>
+</div>
+</form>
+</section>
+</div>
+</main>
+<footer class="site-footer">
+    <p>© כל הזכויות שמורות GALAXY VACATIONS 2026</p>
+    <p>
+        <a href="about.html">קראו עלינו עוד</a> 
+        · <a href="mailto:hello@galaxy-vacations.example">שלחו לנו מייל</a>
+    </p>
+</footer>
+</body>
+</html>

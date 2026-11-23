@@ -1,0 +1,25 @@
+.about-hero{
+    background:linear-gradient(120deg,#171d4c,#563d91);
+    color:white;
+    padding:48px;
+    border-radius:28px
+}
+.about-hero p{
+    color:#e2dff8;
+    max-width:760px
+}
+.about-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;margin-top:28px
+}
+.about-point{background:white;padding:25px;
+    border-radius:20px;box-shadow:var(--shadow)
+}
+.about-point b{
+    font-size:1.15rem;color:var(--purple)
+}
+@media(max-width:700px){
+    .about-grid{grid-template-columns:1fr}
+    .about-hero{padding:28px}
+}
